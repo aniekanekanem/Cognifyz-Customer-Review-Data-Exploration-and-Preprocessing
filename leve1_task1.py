@@ -106,10 +106,10 @@ new_data_lowerOutlierCheck
 # checking the number of lower outliers
 new_data_lowerOutlierCheck.shape
 '''
-There 2148 outliers which are below the lower threshold of 0.67 Aggregate rating
+There are 2148 outliers which are below the lower threshold of 0.67 Aggregate rating
 '''
 
-# confirming the rows with outliers
+# confirming the rows with lower outliers
 new_data_lowerOutlierCheck
 '''
 There are 2148 lower outliers and 0 upper outlier in this dataset out of 9551 observations
