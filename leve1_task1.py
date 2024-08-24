@@ -49,6 +49,9 @@ new_data.isna().sum()
 there are no missing values
 '''
 
+# saving the dataset for future reference
+new_data.to_csv('new_data.csv',index=True)
+
 # 2.  Gathering summary statistics
 new_data.describe() # summary stats for numerical variables
 '''
